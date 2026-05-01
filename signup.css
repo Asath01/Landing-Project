@@ -1,0 +1,53 @@
+body{
+    background-color: hsl(234, 35%, 16%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#signup{
+    display: grid;
+    background-color: hsl(203, 55%, 15%);
+    align-items: center;
+    text-align: center;
+    font-family: sans-serif;
+    border: 4px solid ;
+    border-color: black;
+    border-radius: 30px;
+    margin: 10px;
+    padding: 10px;
+    height:70vh;
+    width: 60vh;
+    color: white;
+}
+#text{
+    display: grid;
+    gap: 5px;
+    padding: 6px;
+    border-radius: 10px;
+    
+}
+#name{
+    background-color: hsl(203, 39%, 70%);
+    padding: 10px;
+    border-radius: 8px;
+    transition: 0.2s;
+}
+#name:hover{
+   
+}
+#btn{
+    background-color: hsl(203, 39%, 70%);
+    padding: 10px;
+    border-radius: 8px;
+    transition: 0.2s;
+}
+#btn:hover{
+    margin: 10px;
+    scale: 20px;
+    background-color: hsl(203, 30%, 27%);
+}
+#btn:active{
+    background-color: hsl(203, 30%, 7%);
+}
